@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@font-face {
+    font-family:CoolveticaLt;
+    src: url(../fonts_cq/CoolveticaLt-Italic.ttf);
+}
+@media (min-width: 600px){
+
+    .boton {
+      
+        font-size: 25px;
+
+    }
+
+}
+
+header {
+    background-color: #000;
+    padding: 10px 0; /* Reduce el padding superior e inferior */
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header img {
+    width: 50%; /* Asegúrate de que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 10px;
+}
+
+.boton {
+    position:absolute;
+    bottom: 10%; /* Ajusta la distancia desde la parte inferior */
+    left: 25%;   /* Ajusta la distancia desde la izquierda */
+    transform: translateX(-50%);
+    max-width: 200%;
+    margin: auto;
+    height: 13%;
+    width: 35%;
+    padding: 10px 20px;
+    background-color: #d31413;
+    color: rgb(0, 217, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    display: block;
+}
+
+nav {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    gap: 0px;
+}
+
+h1 {    
+    background-color: #d31413;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 300%;
+    margin-left: 50px;
+}
+
+p{ 
+    text-align:left;
+    font-family: CoolveticaLt;
+    font-size: 80%;
+    align-items: center;
+}
+
+
+body {
+    background-color: #d31413; /* Establece el fondo rojo */
+    margin: 0; /* Elimina el margen por defecto del body */
+    height: 100%; /* Asegura que el body ocupe toda la altura de la ventana */
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue', sans-serif; /* Fuente Bebas Neue para títulos */
+}
+
+/* Texto e imagen en "MI HISTORIA" */
+.text-image-container {
+    align-items:center;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #000; /* Cambiar el fondo a negro */
+    color: white; /* Asegúrate de que el texto sea blanco para que sea legible */
+    padding: 30px;
+    flex: 5;
+    margin-left: center;
+}
+
+.text-content {
+    flex: 1; /* El texto ocupa el espacio disponible */
+    text-align: left; /* Texto a la izquierda */
+    margin-right: 30px; /* Espacio para el texto y la imagen */
+    
+}
+
+.text-image-container img {
+    max-width: 30%; 
+    height: auto; 
+    margin-left: 20px
+}
+
+.flex-container {
+    display: flex; /* Habilita flexbox */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    margin: 20px auto; /* Espacio alrededor */
+    
+}
+
+.outside-image {
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    height: 50; /* Mantiene la proporción de la imagen */
+}
+
+
+.opciones-de-compra, .foto-3 {
+    flex: 1; /* Permite que ambos tomen el mismo espacio */
+    margin-right: 20px; /* Espacio entre las columnas (ajusta según necesites) */
+}
+
+.opciones-de-compra img, .foto-3 img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.foto-3 {
+    flex: 1;
+    display: flex; /* Agrega display flex para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (opcional) */
+    margin: 50px; /* Espacio alrededor (opcional) */
+}
+
+.foto-3 img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: 50%; /* Mantiene la proporción de la imagen */
+}
+
+
+h2 {
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    text-align: left;
+}
+
+
+.comparativas img {
+    display: block; /* Cambia a bloque para que el margin funcione */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.foto-adicional {
+    flex: 1; /* Ocupa el mismo espacio que las otras imágenes */
+    display: flex; /* Agrega display flex para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (opcional) */
+    margin: 0px; /* Espacio alrededor (opcional) */
+}
+
+.foto-adicional img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.outside-image2 {
+    max-width: 60%; /* Ajusta el tamaño de la imagen */
+    height: 40%; /* Mantiene la proporción de la imagen */
+}
