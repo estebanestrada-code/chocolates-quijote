@@ -20,7 +20,7 @@ header {
 
 .contenedor{
     width: 80%;
-    max-width: 1000px;
+    max-width: 10000px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -33,18 +33,18 @@ header img {
 
 .boton {
     position:absolute;
-    bottom: 10%; /* Ajusta la distancia desde la parte inferior */
+    bottom: 5%; /* Ajusta la distancia desde la parte inferior */
     left: 25%;   /* Ajusta la distancia desde la izquierda */
     transform: translateX(-50%);
     max-width: 200%;
     margin: auto;
-    height: 13%;
-    width: 35%;
+    height: 16%;
+    width: 34%;
     padding: 10px 20px;
     background-color: #d31413;
     color: rgb(0, 217, 255);
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
     font-family: 'Bebas Neue', sans-serif;
     display: block;
@@ -63,13 +63,12 @@ h1 {
     text-align: left;
     padding: 20px;
     font-size: 300%;
-    margin-left: 50px;
 }
 
 p{ 
     text-align:left;
     font-family: CoolveticaLt;
-    font-size: 80%;
+    font-size: 150%;
     align-items: center;
 }
 
@@ -88,7 +87,7 @@ h1, h3 {
 .text-image-container {
     align-items:center;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 2000px;
     background-color: #000; /* Cambiar el fondo a negro */
     color: white; /* Asegúrate de que el texto sea blanco para que sea legible */
     padding: 30px;
@@ -113,7 +112,6 @@ h1, h3 {
     display: flex; /* Habilita flexbox */
     align-items: flex-start; /* Alinea verticalmente al inicio */
     margin: 20px auto; /* Espacio alrededor */
-    
 }
 
 .outside-image {
@@ -180,5 +178,6 @@ h2 {
 
 .outside-image2 {
     max-width: 60%; /* Ajusta el tamaño de la imagen */
+    min-width: 20%;
     height: 40%; /* Mantiene la proporción de la imagen */
 }
